@@ -5,7 +5,7 @@ This app is in progress.
 ### Mental-Health-app is an app aim towards to lighten the mood of the users.
 
 ### Wireframe of the project
-
+![medi-app](https://user-images.githubusercontent.com/20630456/40367765-296733e2-5da8-11e8-9ba5-e521635950e7.png)
 
 
 
