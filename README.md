@@ -4,7 +4,7 @@ This app is in progress.
 
 Mental-Health-app is an app aim towards to lighten the mood of the users.
 
-###headings
+###
 Wireframe of the project
 
 
