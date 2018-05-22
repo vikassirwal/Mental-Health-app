@@ -2,7 +2,7 @@ This project was bootstrapped with Create React App.
 
 This app is in progress.
 
-Mental-Health-app is an app aim towards to lighten the mood of the users.
+### Mental-Health-app is an app aim towards to lighten the mood of the users.
 
 ### Wireframe of the project
 
@@ -10,7 +10,7 @@ Mental-Health-app is an app aim towards to lighten the mood of the users.
 
 
 
-It has following features:
+#### It has following features:
 
 a) Thoughts section - This section is right after the carousal from the top. It displays self-motivationg thought of the day. It's a read only section.
 
