@@ -22,6 +22,113 @@
   font-size: large;
 }
 
+.wrapperDiv {
+   color : blue;
+   background-color: lightgray;
+   height: 100%;
+   width: 100%;
+   left: 0;
+   top: 0;
+   overflow: auto;
+   position: absolute;
+}
+
+.headerWrapper {
+  margin : 3%  5%  0% 5%;
+  background-color: black;
+  color : white;
+  height : 40%;
+}
+
+.thoughtWrapper {
+  margin : 0%  5%  0% 5%;
+  background-color: black;
+  color : white;
+  word-wrap: break-word
+}
+
+.thoughtDiv {
+  padding : 10px;
+}
+
+.contentWrapper {
+  margin : 0%  5%  5% 5%;
+}
+
+.contentWrapperOne {
+  display:flex;
+  flex-direction: row;
+  justify-content : space-between;
+}
+
+.contentWrapperOneI {
+  width : 500px;
+  height : 250px;
+  background-color: black;
+}
+
+.contentWrapperOneII {
+  width : 500px;
+  height : 250px;
+  background-color: blue;
+}
+
+.contentWrapperOneIII {
+  width : 500px;
+  height : 250px;
+  background-color: darkgray;
+}
+
+.contentWrapperTwo {
+  margin : 1%  0%  1% 0%;
+  display:flex;
+  flex-direction: row;
+  justify-content : space-between;
+}
+
+.contentWrapperTwoI {
+  width : 500px;
+  height : 250px;
+  background-color: yellow;
+}
+
+.contentWrapperTwoII {
+  width : 500px;
+  height : 250px;
+  background-color: maroon;
+}
+
+.contentWrapperTwoIII {
+  width : 500px;
+  height : 250px;
+  background-color: red;
+}
+
+.contentWrapperThree {
+  display:flex;
+  flex-direction: row;
+  justify-content : space-between;
+}
+
+.contentWrapperThreeI {
+  width : 500px;
+  height : 250px;
+  background-color: pink;
+}
+
+.contentWrapperThreeII {
+  width : 500px;
+  height : 250px;
+  background-color: darkgray;
+}
+
+.contentWrapperThreeIII {
+  width : 500px;
+  height : 250px;
+  background-color: lightgreen;
+}
+
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }

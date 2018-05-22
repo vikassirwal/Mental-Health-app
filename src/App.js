@@ -1,21 +1,47 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-class App extends Component {
-  render() {
+class App extends React.Component {
+  render(){
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div className = "wrapperDiv">
+        <div className = "headerWrapper">
+          <p>hello</p>
+        </div>
+        <div className = "thoughtWrapper">
+           <p className = "thoughtDiv">"Thought"</p>
+        </div>
+        <div className= "contentWrapper">
+          <div className = "contentWrapperOne">
+              <div className = "contentWrapperOneI">
+              </div>
+              <div className = "contentWrapperOneII">
+              </div>
+              <div className = "contentWrapperOneIII">
+              </div>
+          </div>
+          <div className = "contentWrapperTwo">
+              <div className = "contentWrapperTwoI">
+              </div>
+              <div className = "contentWrapperTwoII">
+              </div>
+              <div className = "contentWrapperTwoIII">
+              </div>
+          </div>
+          <div className = "contentWrapperThree">
+              <div className = "contentWrapperThreeI">
+              </div>
+              <div className = "contentWrapperThreeII">
+              </div>
+              <div className = "contentWrapperThreeIII">
+              </div>
+          </div>
+        </div>
       </div>
-    );
+      );
   }
 }
 
 export default App;
+
+
