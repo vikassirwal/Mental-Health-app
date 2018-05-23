@@ -67,6 +67,15 @@
   height : 250px;
   background-color: black;
   opacity: 0.7;
+  cursor: pointer;
+}
+
+.contentWrapperOneIDiv {
+  color: white;
+  text-align: center;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-top : 10px;
 }
 
 .contentWrapperOneII {
@@ -74,6 +83,14 @@
   height : 250px;
   background-color: yellow;
   opacity: 0.7;
+  cursor: pointer;
+}
+
+.contentWrapperOneIIDiv {
+  text-align: center;
+  padding-left : 10px;
+  padding-right : 10px;
+  padding-top : 10px;
 }
 
 .contentWrapperOneIII {
@@ -81,6 +98,7 @@
   height : 250px;
   background-color: red;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .contentWrapperTwo {
@@ -95,6 +113,7 @@
   height : 250px;
   background-color: violet;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .contentWrapperTwoII {
@@ -102,6 +121,7 @@
   height : 250px;
   background-color: turquoise;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .contentWrapperTwoIII {
@@ -109,6 +129,7 @@
   height : 250px;
   background-color: pink;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .contentWrapperThree {
@@ -122,6 +143,7 @@
   height : 250px;
   background-color: lightgreen;
   opacity:0.7;
+  cursor: pointer;
 }
 
 .contentWrapperThreeII {
@@ -129,6 +151,7 @@
   height : 250px;
   background-color: blue;
   opacity:0.7;
+  cursor: pointer;
 }
 
 .contentWrapperThreeIII {
@@ -136,6 +159,7 @@
   height : 250px;
   background-color: green;
   opacity: 0.7;
+  cursor: pointer;
 }
 
 .contentWrapperThreeIIIDiv{
