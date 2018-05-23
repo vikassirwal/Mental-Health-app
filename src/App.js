@@ -1,7 +1,28 @@
 import React from 'react';
 import './App.css';
+import addIcon from './img/add_icon.png';
 
 class App extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      thought : ""
+    }
+  }
+
+  componentWillMount(){
+    (async () => {
+    await fetch('https://quotes.rest/qod.json') 
+    .then((response) => response.json()).then((response) => {
+
+      this.setState (() => {return {
+        thought : response.contents.quotes[0].quote
+      }});
+      //console.log(response.contents.quotes[0].quote);
+      });
+    })()}
+
   render(){
     return (
       <div className = "wrapperDiv">
@@ -9,7 +30,7 @@ class App extends React.Component {
           <p>hello</p>
         </div>
         <div className = "thoughtWrapper">
-           <p className = "thoughtDiv">"Thought"</p>
+           <p className = "thoughtDiv">'{this.state.thought}'</p>
         </div>
         <div className= "contentWrapper">
           <div className = "contentWrapperOne">
@@ -34,6 +55,10 @@ class App extends React.Component {
               <div className = "contentWrapperThreeII">
               </div>
               <div className = "contentWrapperThreeIII">
+                <div className = "contentWrapperThreeIIIDiv">
+                  <img className="imageClass" src={addIcon} />
+                  <h2>Add Module</h2>
+                </div>
               </div>
           </div>
         </div>

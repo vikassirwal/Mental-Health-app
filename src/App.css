@@ -23,8 +23,7 @@
 }
 
 .wrapperDiv {
-   color : blue;
-   background-color: lightgray;
+   background-image: url("img/wrapperDivBackground.jpg");
    height: 100%;
    width: 100%;
    left: 0;
@@ -35,7 +34,8 @@
 
 .headerWrapper {
   margin : 3%  5%  0% 5%;
-  background-color: black;
+  background-image: url("img/image_1.jpg");
+  background-size: cover;
   color : white;
   height : 40%;
 }
@@ -49,6 +49,7 @@
 
 .thoughtDiv {
   padding : 10px;
+  font-style: italic;
 }
 
 .contentWrapper {
@@ -65,18 +66,21 @@
   width : 500px;
   height : 250px;
   background-color: black;
+  opacity: 0.7;
 }
 
 .contentWrapperOneII {
   width : 500px;
   height : 250px;
-  background-color: blue;
+  background-color: yellow;
+  opacity: 0.7;
 }
 
 .contentWrapperOneIII {
   width : 500px;
   height : 250px;
-  background-color: darkgray;
+  background-color: red;
+  opacity: 0.7;
 }
 
 .contentWrapperTwo {
@@ -89,19 +93,22 @@
 .contentWrapperTwoI {
   width : 500px;
   height : 250px;
-  background-color: yellow;
+  background-color: violet;
+  opacity: 0.7;
 }
 
 .contentWrapperTwoII {
   width : 500px;
   height : 250px;
-  background-color: maroon;
+  background-color: turquoise;
+  opacity: 0.7;
 }
 
 .contentWrapperTwoIII {
   width : 500px;
   height : 250px;
-  background-color: red;
+  background-color: pink;
+  opacity: 0.7;
 }
 
 .contentWrapperThree {
@@ -113,19 +120,34 @@
 .contentWrapperThreeI {
   width : 500px;
   height : 250px;
-  background-color: pink;
+  background-color: lightgreen;
+  opacity:0.7;
 }
 
 .contentWrapperThreeII {
   width : 500px;
   height : 250px;
-  background-color: darkgray;
+  background-color: blue;
+  opacity:0.7;
 }
 
 .contentWrapperThreeIII {
   width : 500px;
   height : 250px;
-  background-color: lightgreen;
+  background-color: green;
+  opacity: 0.7;
+}
+
+.contentWrapperThreeIIIDiv{
+  color: black;
+  margin : auto;
+  width: 35%;
+  margin-top: 5%;
+}
+
+.imageClass {
+  width: 150px;
+  height: 150px;
 }
 
 
